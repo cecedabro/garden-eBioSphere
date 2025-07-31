@@ -1,0 +1,94 @@
+body { 
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(135deg, #f5f7f5, #e0e8e0);
+  color: #222;
+  margin: 20px;
+  line-height: 1.6;
+  padding: 1rem;
+}
+
+pre {
+  background: rgba(200, 230, 200, 0.7);
+  padding: 1.5rem;
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
+  white-space: pre-wrap;
+  line-height: 1.6;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(150, 200, 150, 0.4);
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: #2e4e2e;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #cde8c9, #a8d5a3);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+nav { 
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(180, 200, 180, 0.4);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li a {
+  color: #3a8f4d;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.text-box {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1.5rem;
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  white-space: normal;
+  margin: 0 auto;
+  max-width: 800px;
+  border: 1px solid rgba(200, 220, 200, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+@media (max-width: 600px) {
+  .text-box {
+    margin: 0.3rem;
+    padding: 1rem;
+  }
+
+  body {
+    margin: 1rem;
+  }
+
+  .text-box p {
+    font-size: 1rem;
+  }
+}
