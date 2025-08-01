@@ -3,7 +3,7 @@ const isLocalhost = location.hostname === "127.0.0.1" || location.hostname === "
 // Choose which navbar file to fetch
 const navbarPath = isLocalhost 
   ? "/common/navbar-local.html"  // local version
-  : "/garden eBioSphere/common/navbar-github.html";  // GitHub Pages version
+  : "/garden-eBioSphere/common/navbar-github.html";  // GitHub Pages version
 
 fetch(navbarPath)
   .then(response => response.text())
